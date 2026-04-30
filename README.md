@@ -1,11 +1,11 @@
-# Facebook Scraper - Inovasi Sumba
+# Facebook Scraper - Inovasi Kota Baubau
 
 ## 📋 Deskripsi
 
 Aplikasi scraper untuk mengekstrak data bisnis dari grup Facebook, khususnya fokus pada:
 - Nomor WhatsApp
 - Harga produk/jasa  
-- Lokasi geografis (Kecamatan Sumba Barat & Tengah)
+- Lokasi geografis
 
 ## ✨ Fitur Utama
 
@@ -139,8 +139,7 @@ Untuk mode web (`web_app.py`), browser otomatis dijalankan headless di backgroun
 ├── .env                  # Environment variables (CREATE FROM EXAMPLE)
 ├── requirements.txt      # Python dependencies
 ├── fb_session/           # Chrome session data (auto-created)
-├── fb_scraper.log        # Log file
-└── inovasi_sumba_*.csv   # Output file
+└── fb_scraper.log        # Log file
 ```
 
 ## 🔧 File Konfigurasi: `config.py`
@@ -174,7 +173,7 @@ Hasil scraping akan disimpan sebagai CSV dengan columns:
 | Column | Deskripsi |
 |--------|-----------|
 | `tanggal_ambil` | Waktu data diambil |
-| `kabupaten` | Kabupaten (Sumba Barat/Tengah) |
+| `kabupaten` | Kabupaten |
 | `kecamatan` | Kecamatan |
 | `whatsapp` | Nomor WhatsApp |
 | `harga` | Harga produk/jasa |
